@@ -23,21 +23,6 @@
 </dependencies>
 <build>
         <finalName>gamutkart</finalName>
-
-    <plugins>
-        <plugin>
-            <artifactId>maven-failsafe-plugin</artifactId>
-            <version>3.6.3</version>
-            <executions>
-                <execution>
-                    <goals>
-                        <goal>integration-test</goal>
-                        <goal>verify</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin>
-    </plugins>
 </build>
     </project>
              
